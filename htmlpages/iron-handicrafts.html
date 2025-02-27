@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Iron Handicrafts - Product Details</title>
+    <!-- Bootstrap and other resources -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+         body {
+            font-family: 'Poppins', sans-serif;
+            background-image: linear-gradient(to top, #304647, 60%, #fff);
+            box-sizing: border-box;
+        }
+
+        .product-details {
+            margin-top: 50px;
+            border-radius: 15px;
+            padding: 40px;
+        } 
+
+        .product-title {
+            font-size: 36px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .d-grip {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .product-price {
+            font-size: 27px;
+            color: #ff6347;
+            font-weight: bold;
+            background-color: #5f1e3c;
+            padding: 8px 15px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .add-to-cart-btn {
+            background-color: #ff7f50;
+            color: white;
+            border: none;
+            padding: 10px 30px;
+            font-size: 18px;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 2px;
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .add-to-cart-btn:hover {
+            background-color: #ff6347;
+            transform: scale(1.1);
+        }
+
+        .product-highlights {
+            margin-top: 30px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .product-highlights ul {
+            list-style-type: square;
+        }
+
+        .product-description {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #555;
+        }
+
+        footer {
+            background-color: #282828;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: #ff7f50;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class=" product-details">
+        <div class="col-md-6">
+            <h2 class="product-title">Iron Handicrafts</h2>
+            <p class="product-description">
+                Iron handicrafts are durable and strong items created using high-quality iron. These handicrafts are
+                shaped and designed using traditional methods and artistic techniques. They make for perfect decorative
+                pieces in any setting.
+            </p>
+            <p class="product-price" ></p>
+            <div class="product-highlights">
+                <h5>Product Highlights:</h5>
+                <ul>
+                    <li>Handcrafted using premium quality iron.</li>
+                    <li>Elegant designs perfect for home or office decor.</li>
+                    <li>Long-lasting and durable pieces.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="product-details">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="../images/iron1.webp " class="img-fluid rounded" alt="Iron Handicraft">
+                    <h2 class="text-center  mt-3" style="font-weight: bold; color: #304647;">Vintage Iron Owl  </h2>
+                    <div class="d-grip gap-2">
+                        <p class="product-price" id="productPrice">Rs 2300.00</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="../images/iron2.webp " class="img-fluid rounded"
+                        alt="Iron Handicraft">
+                    <h2 class="text-center  mt-3" style="font-weight: bold; color: #304647;">Victorian-Style Iron Wall Clock </h2>
+                    <div class="d-grip gap-2">
+                        <p class="product-price" id="productPrice">Rs 1800.00</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="../images/iron3.webp " class="img-fluid rounded" alt="Iron Handicraft">
+                    <h2 class="text-center  mt-3" style="font-weight: bolder; color: #12292b;"> Bicycle Wine Bottle Holder </h2>
+                    <div class="d-grip gap-2">
+                        <p class="product-price" id="productPrice">Rs 3100.00</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="../images/iron4.webp " class="img-fluid rounded"
+                        alt="Iron Handicraft">
+                    <h2 class="text-center  mt-3" style="font-weight: bolder; color: #12292b;">Elegant Wrought Wall Sconce </h2>
+                    <div class="d-grip gap-2">
+                        <p class="product-price" id="productPrice">Rs 2200.00</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 HandyMart | All Rights Reserved</p>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </footer>
+
+
+</body>
+
+</html>

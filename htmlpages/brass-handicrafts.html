@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="../New folder/popper.min.js"></script>
+    <script src="..//New folder/jquery-3.7.1.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <title>Brass Handicrafts - Product Details</title>
+    <style>
+ body {
+            font-family: 'Poppins', sans-serif;
+            background-image: linear-gradient(to top, #304647, 60%, #fff);
+            box-sizing: border-box;
+        }
+
+        .product-details {
+            margin-top: 50px;
+            border-radius: 15px;
+            padding: 40px;
+        } 
+
+        .product-title {
+            font-size: 36px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .d-grip {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .product-price {
+            font-size: 27px;
+            color: #ff6347;
+            font-weight: bold;
+            background-color: #5f1e3c;
+            padding: 8px 15px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .add-to-cart-btn {
+            background-color: #ff7f50;
+            color: white;
+            border: none;
+            padding: 10px 30px;
+            font-size: 18px;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 2px;
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .add-to-cart-btn:hover {
+            background-color: #ff6347;
+            transform: scale(1.1);
+        }
+
+        .product-highlights {
+            margin-top: 30px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .product-highlights ul {
+            list-style-type: square;
+        }
+
+        .product-description {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #555;
+        }
+
+        footer {
+            background-color: #282828;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: #ff7f50;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class=" product-details">
+            <div class="col-md-6">
+                <h2 class="product-title">Brass Handicrafts</h2>
+                <p class="product-description">
+                    Brass handicrafts are intricately designed and handcrafted pieces made from brass. These items are highly valued for their beauty, intricate craftsmanship, and high durability. Perfect for home or office decoration.
+                </p>
+                <p class="product-price" ></p>
+                <div class="product-highlights">
+                    <h5>Product Highlights:</h5>
+                    <ul>
+                        <li>Made from premium brass.</li>
+                        <li>Timeless, elegant designs.</li>
+                        <li>Perfect for luxury home decor and gifting.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product-details">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="../images/brass1.webp" class="img-fluid rounded" alt="Brass Handicraft">
+                        <h2 class="text-center  mt-3" style="font-weight: bold; color: #304647;">Brass Oil Lamp </h2>
+                        <div class="d-grip gap-2">
+                            <p class="product-price" id="productPrice">Rs 3700.00</p>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-6">
+                        <img src="../images/brass2.webp " class="img-fluid rounded"
+                            alt="Brass Handicraft">
+                        <h2 class="text-center  mt-3" style="font-weight: bold; color: #304647;"> Peacock Statue </h2>
+                        <div class="d-grip gap-2">
+                            <p class="product-price" id="productPrice">Rs 3100.00</p>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="../images/brass3.webp" class="img-fluid rounded" alt="Brass Handicraft">
+                        <h2 class="text-center mt-3" style="font-weight: bold; color: #12292b;">Majestic Horse  </h2>
+                        <div class="d-grip gap-2">
+                            <p class="product-price" id="productPrice">Rs 5400.00</p>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="../images/brass4.webp" class="img-fluid rounded"
+                            alt="Brass Handicraft">
+                        <h2 class="text-center  mt-3" style="font-weight: bold; color: #12292b;"> Elephant Figurine </h2>
+                        <div class="d-grip gap-2">
+                            <p class="product-price" id="productPrice">Rs 4500.00</p>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <footer>
+                <p>&copy; 2025 HandyMart | All Rights Reserved</p>
+                <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </footer>
+    
+    
+    
+
+    
+
+</body>
+
+</html>
